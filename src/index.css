@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 20% 97%;
+    --foreground: 222 47% 11%;
+    --muted: 215 14% 93%;
+    --muted-foreground: 215 20% 34%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --border: 214 18% 89%;
+    --input: 214 18% 89%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --primary: 205 72% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 14% 93%;
+    --secondary-foreground: 222 47% 11%;
+    --accent: 205 22% 91%;
+    --accent-foreground: 205 72% 32%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 205 72% 40%;
+    --radius: 0.75rem;
+
+    --chart-1: 205 72% 40%;
+    --chart-2: 190 60% 42%;
+    --chart-3: 160 45% 38%;
+    --chart-4: 120 35% 40%;
+    --chart-5: 35 55% 48%;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 205 72% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 14% 93%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 18% 89%;
+    --sidebar-ring: 205 72% 40%;
+
+    --font-sans: 'Inter', 'Helvetica Neue', sans-serif;
+    --font-mono: 'Courier New', monospace;
+
+    --shadow-x: 0px;
+    --shadow-y: 1px;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-opacity: 0.08;
+    --shadow-color: #000000;
+
+    --shadow-2xs: var(--shadow-x) var(--shadow-y) color-mix(in srgb, var(--shadow-color) calc(var(--shadow-opacity) * 100%), transparent);
+    --shadow-xs: var(--shadow-x) var(--shadow-y) var(--shadow-blur) var(--shadow-spread) color-mix(in srgb, var(--shadow-color) calc(var(--shadow-opacity) * 100%), transparent);
+    --shadow-sm: var(--shadow-x) var(--shadow-y) calc(var(--shadow-blur) * 1.5) var(--shadow-spread) color-mix(in srgb, var(--shadow-color) calc(var(--shadow-opacity) * 100%), transparent);
+    --shadow-md: calc(var(--shadow-x) * 2) calc(var(--shadow-y) * 2) calc(var(--shadow-blur) * 3) calc(var(--shadow-spread) - 1px) color-mix(in srgb, var(--shadow-color) calc(var(--shadow-opacity) * 100%), transparent);
+    --shadow-lg: calc(var(--shadow-x) * 4) calc(var(--shadow-y) * 4) calc(var(--shadow-blur) * 5) calc(var(--shadow-spread) - 3px) color-mix(in srgb, var(--shadow-color) calc(var(--shadow-opacity) * 100%), transparent);
+    --shadow-xl: calc(var(--shadow-x) * 6) calc(var(--shadow-y) * 6) calc(var(--shadow-blur) * 7) calc(var(--shadow-spread) - 5px) color-mix(in srgb, var(--shadow-color) calc(var(--shadow-opacity) * 100%), transparent);
+    --shadow-2xl: calc(var(--shadow-x) * 8) calc(var(--shadow-y) * 8) calc(max(0px, var(--shadow-blur) * 9 - 8px)) calc(var(--shadow-spread) - 12px) color-mix(in srgb, var(--shadow-color) calc(var(--shadow-opacity) * 250%), transparent);
+    --shadow: var(--shadow-md);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground text-base leading-relaxed;
+  }
+}
+
+/* Snow particle animation */
+@keyframes snowfall {
+  0% { transform: translateY(-10px) translateX(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 0.6; }
+  100% { transform: translateY(100vh) translateX(var(--snow-drift, 20px)); opacity: 0; }
+}
+
+/* ── Cinematic Portal: Particles ── */
+
+/* Snow — gentle falling */
+.portal-particle--snow {
+  background: white;
+  opacity: 0;
+  animation: portal-fall linear infinite;
+}
+@keyframes portal-fall {
+  0%   { transform: translateY(-20px) translateX(0) scale(1); opacity: 0; }
+  10%  { opacity: 0.7; }
+  90%  { opacity: 0.3; }
+  100% { transform: translateY(100vh) translateX(var(--p-drift, 20px)) scale(0.8); opacity: 0; }
+}
+
+/* Ice — sharp sparkle blink */
+.portal-particle--ice {
+  background: hsl(200, 80%, 85%);
+  opacity: 0;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  animation: portal-sparkle ease-in-out infinite;
+}
+@keyframes portal-sparkle {
+  0%, 100% { opacity: 0; transform: scale(0.5) rotate(0deg); }
+  30%      { opacity: 0.9; transform: scale(1.2) rotate(90deg); }
+  50%      { opacity: 0.3; transform: scale(0.8) rotate(180deg); }
+  70%      { opacity: 0.8; transform: scale(1) rotate(270deg); }
+}
+
+/* Stars — slow drift + twinkle */
+.portal-particle--stars {
+  background: hsl(50, 100%, 90%);
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 3px 1px hsla(50, 100%, 80%, 0.4);
+  animation: portal-twinkle ease-in-out infinite;
+}
+@keyframes portal-twinkle {
+  0%, 100% { opacity: 0; transform: translateY(0) scale(0.6); }
+  25%      { opacity: 0.9; transform: translateY(-10px) scale(1); }
+  50%      { opacity: 0.3; transform: translateY(-18px) scale(0.7); }
+  75%      { opacity: 0.8; transform: translateY(-8px) scale(1.1); }
+}
+
+/* Embers — warm rising */
+.portal-particle--embers {
+  background: hsl(25, 100%, 60%);
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 6px 2px hsla(25, 100%, 50%, 0.5);
+  animation: portal-rise ease-out infinite;
+}
+@keyframes portal-rise {
+  0%   { transform: translateY(100vh) translateX(0) scale(1); opacity: 0; }
+  15%  { opacity: 0.8; }
+  60%  { opacity: 0.4; }
+  100% { transform: translateY(-20px) translateX(var(--p-drift, 10px)) scale(0.3); opacity: 0; }
+}
+
+/* Mist — soft horizontal drift */
+.portal-particle--mist {
+  background: hsla(0, 0%, 100%, 0.12);
+  border-radius: 50%;
+  filter: blur(8px);
+  opacity: 0;
+  animation: portal-mist linear infinite;
+}
+@keyframes portal-mist {
+  0%   { transform: translateX(-60px) translateY(0); opacity: 0; }
+  20%  { opacity: 0.15; }
+  80%  { opacity: 0.08; }
+  100% { transform: translateX(calc(100vw + 60px)) translateY(var(--p-drift, -10px)); opacity: 0; }
+}
+
+/* Pulsing vignette */
+.portal-vignette {
+  box-shadow: inset 0 0 120px 40px rgba(0,0,0,0.5);
+  animation: portal-vignette-pulse 4s ease-in-out infinite;
+}
+@keyframes portal-vignette-pulse {
+  0%, 100% { box-shadow: inset 0 0 120px 40px rgba(0,0,0,0.5); }
+  50%      { box-shadow: inset 0 0 150px 60px rgba(0,0,0,0.6); }
+}
+
+/* Altitude counter pulse */
+.portal-altitude-pulse {
+  animation: portal-alt-pulse 2s ease-in-out infinite;
+}
+@keyframes portal-alt-pulse {
+  0%, 100% { opacity: 0.7; }
+  50%      { opacity: 1; }
+}
+
+/* Cloud drift */
+@keyframes cloud-drift-right {
+  0% { transform: translateX(-300px); }
+  100% { transform: translateX(calc(100vw + 300px)); }
+}
+
+@keyframes cloud-drift-left {
+  0% { transform: translateX(calc(100vw + 200px)); }
+  100% { transform: translateX(-400px); }
+}

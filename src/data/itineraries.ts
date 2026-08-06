@@ -2626,11 +2626,11 @@ export const tourDetails: Record<string, TourDetails> = {
       {
         "day": 1,
         "title": "Balti Folk Musical Night & Cultural Campfire",
-        "description": "Evening gathering around the outdoor campfire; enjoy live performances by master folk musicians from Sakhpat, traditional dances, and dinner."
+        "description": "Evening gathering around the outdoor campfire; enjoy live performances by master folk musicians from Sakhawat, traditional dances, and dinner."
       }
     ],
     "included": [
-      "Full evening live musical performance by cultural partner Sakhpat",
+      "Full evening live musical performance by cultural partner Sakhawat",
       "Outdoor campfire setup and seating",
       "Traditional Balti dinner, barbecue, and herbal chai",
       "Cultural storytelling host"
@@ -2642,7 +2642,7 @@ export const tourDetails: Record<string, TourDetails> = {
       "Tips and voluntary gratuities for musicians"
     ],
     "highlights": [
-      "Live authentic Balti music by master musicians from our cultural partner Sakhpat",
+      "Live authentic Balti music by master musicians from our cultural partner Sakhawat",
       "Traditional daman (drums), surna (pipes), and participatory Balti sword/folk dances",
       "Open-air campfire with local mountain herbal tea and traditional appetizers",
       "Immersive cultural storytelling of Karakoram legends and mountain folklore"

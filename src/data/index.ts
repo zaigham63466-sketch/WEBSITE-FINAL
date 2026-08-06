@@ -894,7 +894,7 @@ export const founders: Founder[] = [
 
 export const businessInfo = {
   travelAgency: 'Musa Don',
-  culturalMusicPartner: 'Sakhpat',
+  culturalMusicPartner: 'Sakhawat',
   instagram: 'saqlain_nadeem3',
   whatsapp: '+92 311 1129977',
 };

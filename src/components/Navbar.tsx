@@ -6,6 +6,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 const UTILITY_BAR_HEIGHT = 34; // matches TopUtilityBar approx height
 
 const links = [
+  { label: 'Home', to: '/' },
   { label: 'Treks', to: '/treks' },
   { label: 'Expeditions', to: '/expeditions' },
   { label: 'Valleys', to: '/valleys' },
@@ -22,16 +23,25 @@ export default function Navbar() {
   const location = useLocation();
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 0);
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
+    const handleScroll = () => {
+      // Switch to solid background once leaving hero section
+      const heroHeightVH = location.pathname === '/' ? 85 : 32;
+      const heroHeightPx = (window.innerHeight * heroHeightVH) / 100;
+      setScrolled(window.scrollY > heroHeightPx - 60);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // Check initial position
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [location.pathname]);
 
   useEffect(() => { window.scrollTo(0, 0); }, [location.pathname]);
 
   return (
     <nav
-      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-background/95 backdrop-blur-xl shadow-sm border-b border-border/50' : 'bg-background/80 backdrop-blur-md border-b border-border/30'}`}
+      className={`w-full transition-all duration-300 ${
+        scrolled ? 'bg-background shadow-sm border-b border-border' : 'bg-background/30 backdrop-blur-md border-b border-white/10'
+      }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">

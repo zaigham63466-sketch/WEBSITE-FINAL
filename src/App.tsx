@@ -22,7 +22,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <TopUtilityBar />
-      <Navbar />
+      <div className="sticky top-0 z-50 w-full h-0">
+        <Navbar />
+      </div>
       <main className="min-h-screen">
         <Suspense fallback={<div className="min-h-screen" />}>
           <Routes>

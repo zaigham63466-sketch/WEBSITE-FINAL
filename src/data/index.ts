@@ -846,6 +846,27 @@ export const tours: Tour[] = [
     ],
     "image": "/images/Shimshal Valley Ski.jpeg",
     "originalPrice": 3850
+  },
+  {
+    "id": "hoo-valley-jamal-pass",
+    "name": "Hoo Valley & Jamal Pass Trek",
+    "category": "trek",
+    "description": "An adventurous 16-day technical trek via the remote Hoo Valley and Baqir Jamal Pass leading into the high-altitude Snow Lake glacial basin.",
+    "duration": "16 Days",
+    "durationDays": 16,
+    "altitude": "5,150m",
+    "altitudeMeters": 5150,
+    "difficulty": "Extreme",
+    "bestSeason": "June to September",
+    "price": 2400,
+    "originalPrice": 2850,
+    "tags": [
+      "snow-peaks",
+      "camping",
+      "glacier",
+      "photography"
+    ],
+    "image": "https://hunzaguidespakistan.com/wp-content/uploads/2021/12/Trekking-on-Biafo-Glacier-Snow-Lake-Trek.jpg"
   }
 ];
 

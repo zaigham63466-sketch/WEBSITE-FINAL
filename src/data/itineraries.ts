@@ -2421,6 +2421,111 @@ export const tourDetails: Record<string, TourDetails> = {
       "Experience the incredible hospitality and resilience of the Wakhi people in winter.",
       "Navigate the thrilling, snow-covered 53 km jeep road from Passu to Shimshal."
     ]
+  },
+  "hoo-valley-jamal-pass": {
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Islamabad & Briefing",
+        "description": "Arrive at Islamabad International Airport where our team will transfer you to your hotel. Attend the mandatory trek briefing, inspect technical equipment, and complete initial permit paperwork."
+      },
+      {
+        "day": 2,
+        "title": "Fly to Skardu (2,230m)",
+        "description": "Take the scenic morning flight over Nanga Parbat to Skardu. Spend the afternoon resting, gathering final camp supplies, and acclimatizing to the mountain air."
+      },
+      {
+        "day": 3,
+        "title": "Drive Skardu to Apo Aligon / Hoo Valley Trailhead",
+        "description": "Board 4x4 jeeps for a rugged drive along the Braldu River into the entrance of the remote Hoo Valley. Meet your porter team and establish your first wilderness campsite."
+      },
+      {
+        "day": 4,
+        "title": "Trek Hoo Valley Lower Pastures (3,300m)",
+        "description": "Begin the foot trek following the rushing Hoo stream through birch groves and green summer grazing pastures, slowly gaining elevation under steep granite cliffs."
+      },
+      {
+        "day": 5,
+        "title": "Trek to High Pastures of Hoo Valley (3,800m)",
+        "description": "Walk up steep moraine trails toward the upper pastures. The valley narrows as massive glacier tongues come into view, offering panoramic mountain views."
+      },
+      {
+        "day": 6,
+        "title": "Trek to Baqir Jamal Advance Base Camp (4,200m)",
+        "description": "Navigate loose scree slopes and lateral moraines to reach the advance base camp situated right below the steep wall of the Baqir Jamal Pass."
+      },
+      {
+        "day": 7,
+        "title": "Acclimatization & Fixed Rope Training",
+        "description": "A mandatory rest and training day. Practice fixed rope ascent, crampon techniques, and self-arrest on surrounding snow slopes while your guide team sets safety lines up the pass."
+      },
+      {
+        "day": 8,
+        "title": "Ascend High Camp / Baqir Jamal Pass Approach (4,600m)",
+        "description": "Climb up steep snowfields and rocky ridges to establish a high camp near the base of the final headwall, minimizing the summit day climb."
+      },
+      {
+        "day": 9,
+        "title": "Cross Baqir Jamal Pass (5,150m) to Snow Lake Basin",
+        "description": "Start before dawn to tackle the steep technical ascent of Baqir Jamal Pass (5,150m) using fixed ropes. Enjoy breathtaking views across Biantha Brak before rappelling into the Snow Lake basin."
+      },
+      {
+        "day": 10,
+        "title": "Traverse Snow Lake Glacial Plateau (4,877m)",
+        "description": "Cross the immense, high-altitude Snow Lake (Lukpe Lawo) plateau, a vast 16km-wide ice basin surrounded by untouched Karakoram towers."
+      },
+      {
+        "day": 11,
+        "title": "Descent onto Biafo Glacier (4,300m)",
+        "description": "Leave Snow Lake behind and begin navigating down the central white ice of the Biafo Glacier, passing meltwater streams and massive crevasses."
+      },
+      {
+        "day": 12,
+        "title": "Trek Biafo Glacier to Baintha Camp (3,990m)",
+        "description": "Move from the central ice onto the grassy lateral moraine pastures of Baintha. Enjoy thicker air, fresh spring water, and wild alpine flowers."
+      },
+      {
+        "day": 13,
+        "title": "Trek Baintha to Askole Village (3,000m)",
+        "description": "Complete the long descent down the terminal moraine of Biafo Glacier, stepping back onto solid dirt trails to reach Askole village."
+      },
+      {
+        "day": 14,
+        "title": "Drive Askole to Skardu",
+        "description": "Board 4x4 jeeps for the drive back through the Shigar Valley to Skardu. Check into your hotel for a warm shower, soft bed, and team celebration dinner."
+      },
+      {
+        "day": 15,
+        "title": "Fly Skardu to Islamabad",
+        "description": "Take the morning flight back to Islamabad. Spend the afternoon resting or exploring local markets in the capital city."
+      },
+      {
+        "day": 16,
+        "title": "Final Departure from Islamabad",
+        "description": "Enjoy breakfast at your hotel before our team transfers you to Islamabad International Airport for your flight home."
+      }
+    ],
+    "included": [
+      "Internal flights between Islamabad and Skardu (or road transfers if weather delays flights).",
+      "Licensed English-speaking mountain guide, high-altitude porters, and cook crew.",
+      "All meals during camping days and full hotel stay in Skardu & Islamabad.",
+      "Camping equipment (tents, mattresses) and fixed climbing ropes for Baqir Jamal Pass.",
+      "Central Karakoram National Park permits, trekking royalties, and 4x4 jeep transfers."
+    ],
+    "excluded": [
+      "International flights to and from Pakistan.",
+      "Pakistan tourist visa fees.",
+      "Mandatory high-altitude travel and helicopter emergency rescue insurance.",
+      "Personal technical climbing gear (harness, crampons, ice axe, helmet).",
+      "Staff tips and personal expenditure."
+    ],
+    "highlights": [
+      "Conquer the technical Baqir Jamal Pass (5,150m) using fixed ropes and crampons.",
+      "Explore the untouched Hoo Valley, a rare off-the-beaten-path Karakoram wilderness.",
+      "Traverse the legendary Snow Lake (Lukpe Lawo) 16km ice basin.",
+      "Walk the Biafo Glacier with stunning views of Biantha Brak (7,284m).",
+      "Experience authentic Balti hospitality and mountain culture."
+    ]
   }
 };
 

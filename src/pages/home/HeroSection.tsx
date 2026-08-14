@@ -16,21 +16,21 @@ interface Slide {
 
 const slides: Slide[] = [
   {
+    tag: 'Winter · Dec – Mar',
+    headline: 'Best of Winter — Ski Tours in Naltar',
+    description: 'Backcountry powder through pine forests and open bowls in the Karakoram.',
+    cta: 'View Ski Tours',
+    to: '/ski-tours',
+    image: '/images/k2-hero.jpeg',
+    snow: true,
+  },
+  {
     tag: 'Peak Season · Jun – Aug',
     headline: 'Summer Trekking Season Is Open',
     description: 'Book your K2 Base Camp, Snow Lake, or Fairy Meadows trek before spaces fill.',
     cta: 'Explore Treks',
     to: '/treks',
     image: 'https://images.unsplash.com/photo-1597350340158-6b2c2ff93a3e?w=1600&q=80&auto=format&fit=crop',
-    snow: true,
-  },
-  {
-    tag: 'Winter · Dec – Mar',
-    headline: 'Best of Winter — Ski Tours in Naltar',
-    description: 'Backcountry powder through pine forests and open bowls in the Karakoram.',
-    cta: 'View Ski Tours',
-    to: '/ski-tours',
-    image: 'https://images.unsplash.com/photo-1585654766816-8a9fe569d445?w=1600&q=80&auto=format&fit=crop',
     snow: true,
   },
   {

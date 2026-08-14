@@ -27,14 +27,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 5150,
     "difficulty": "Expert",
     "bestSeason": "June to September",
-    "price": 2000,
+    "price": 2200,
     "tags": [
       "snow-peaks",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1486911278844-a81c5267e227?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 2800
+    "image": "/images/k2 base camp trek.jpeg",
+    "originalPrice": 2650
   },
   {
     "id": "gondogoro-la",
@@ -47,14 +47,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 5585,
     "difficulty": "Expert",
     "bestSeason": "Jul\u2013Aug",
-    "price": 3300,
+    "price": 2400,
     "tags": [
       "snow-peaks",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 4000
+    "image": "/images/gondogoro la trek..jpeg",
+    "originalPrice": 2900
   },
   {
     "id": "snow-lake",
@@ -67,13 +67,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 5151,
     "difficulty": "Expert",
     "bestSeason": "Jul\u2013Aug",
-    "price": 3200,
+    "price": 2500,
     "tags": [
       "snow-peaks",
       "camping"
     ],
-    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 3800
+    "image": "https://hunzaguidespakistan.com/wp-content/uploads/2021/12/Trekking-on-Biafo-Glacier-Snow-Lake-Trek.jpg",
+    "originalPrice": 3000
   },
   {
     "id": "fairy-meadows",
@@ -86,14 +86,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 3967,
     "difficulty": "Moderate",
     "bestSeason": "May\u2013Oct",
-    "price": 899,
+    "price": 2200,
     "tags": [
       "green-valleys",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 1200
+    "image": "https://www.jackandjilltravel.com/wp-content/uploads/2024/02/P8100236-2-scaled.jpg",
+    "originalPrice": 2650
   },
   {
     "id": "rakaposhi-bc",
@@ -106,13 +106,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 3800,
     "difficulty": "Moderate",
     "bestSeason": "Jun\u2013Sep",
-    "price": 750,
+    "price": 1600,
     "tags": [
       "snow-peaks",
       "camping"
     ],
-    "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 950
+    "image": "/images/rakaposhi base camp trek.jpeg",
+    "originalPrice": 1950
   },
   {
     "id": "rush-lake",
@@ -125,13 +125,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 4694,
     "difficulty": "Challenging",
     "bestSeason": "Jul\u2013Sep",
-    "price": 1850,
+    "price": 1800,
     "tags": [
       "snow-peaks",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&q=80&auto=format&fit=crop",
+    "image": "/images/Rush Lake Alpine Trek.jpeg",
     "originalPrice": 2200
   },
   {
@@ -145,13 +145,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2500,
     "difficulty": "Moderate",
     "bestSeason": "Apr\u2013Nov",
-    "price": 250,
+    "price": 350,
     "tags": [
       "culture",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 350
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZUtwYKniALKRH_X2dpfzbol7JIDYGuYTF6sTnqfuZwhGXwIRcuAMMCBOL0lEgJFzfWnCtPhRJGD5TO1y7p62DTAQd8gfI-h-V3uYoFonnNt8bV7zEFZ_2aNhClEsGcqCvKi8l95_VcZ0/s1600/Menthal+Rock+Budha.JPG",
+    "originalPrice": 450
   },
   {
     "id": "k2-expedition",
@@ -164,12 +164,12 @@ export const tours: Tour[] = [
     "altitudeMeters": 8611,
     "difficulty": "Expert",
     "bestSeason": "Jun\u2013Aug",
-    "price": 45000,
+    "price": 24000,
     "tags": [
       "snow-peaks"
     ],
-    "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 50000
+    "image": "https://adventureguide.com.pk/wp-content/uploads/2026/04/K2-trek-and-Gandagoro-7--1024x521.webp",
+    "originalPrice": 28800
   },
   {
     "id": "broad-peak",
@@ -182,12 +182,12 @@ export const tours: Tour[] = [
     "altitudeMeters": 8051,
     "difficulty": "Expert",
     "bestSeason": "Jun\u2013Jul",
-    "price": 12000,
+    "price": 16000,
     "tags": [
       "snow-peaks"
     ],
-    "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 14000
+    "image": "/images/Broad Peak Expedition.jpeg",
+    "originalPrice": 19200
   },
   {
     "id": "gasherbrum-i",
@@ -200,12 +200,12 @@ export const tours: Tour[] = [
     "altitudeMeters": 8080,
     "difficulty": "Expert",
     "bestSeason": "Jun\u2013Aug",
-    "price": 14500,
+    "price": 14000,
     "tags": [
       "snow-peaks"
     ],
-    "image": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 16500
+    "image": "https://summitk2.com/wp-content/uploads/2024/02/gasherbrum-i-expedition-Pakistan.jpeg",
+    "originalPrice": 16800
   },
   {
     "id": "gasherbrum-ii",
@@ -218,12 +218,12 @@ export const tours: Tour[] = [
     "altitudeMeters": 8035,
     "difficulty": "Expert",
     "bestSeason": "Jun\u2013Jul",
-    "price": 11500,
+    "price": 14000,
     "tags": [
       "snow-peaks"
     ],
-    "image": "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 13500
+    "image": "/images/Gasherbrum II Expedition.jpeg",
+    "originalPrice": 16800
   },
   {
     "id": "spantik-expedition",
@@ -236,12 +236,12 @@ export const tours: Tour[] = [
     "altitudeMeters": 7027,
     "difficulty": "Expert",
     "bestSeason": "Jun\u2013Aug",
-    "price": 6050,
+    "price": 6500,
     "tags": [
       "snow-peaks"
     ],
-    "image": "https://images.fillout.com/798479/vhnpv1uqn8/generated-images/wPxL4L6cFgdcqhG5uNk8Z1/img_uCx2BuIEy2Bwg0Qg.jpg",
-    "originalPrice": 8000
+    "image": "https://hunzaguidespakistan.com/wp-content/uploads/2022/02/Spantik-expedition-7027m.jpg",
+    "originalPrice": 7800
   },
   {
     "id": "nanga-parbat-exp",
@@ -254,12 +254,12 @@ export const tours: Tour[] = [
     "altitudeMeters": 8126,
     "difficulty": "Expert",
     "bestSeason": "Jun\u2013Aug",
-    "price": 18000,
+    "price": 14000,
     "tags": [
       "snow-peaks"
     ],
-    "image": "https://images.unsplash.com/photo-1516477266410-9e3f56e57bc3?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 21000
+    "image": "/images/Nanga Parbat Expedition.jpeg",
+    "originalPrice": 16800
   },
   {
     "id": "skardu-valley",
@@ -272,14 +272,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 2500,
     "difficulty": "Easy",
     "bestSeason": "Apr\u2013Oct",
-    "price": 980,
+    "price": 850,
     "tags": [
       "green-valleys",
       "culture",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 1200
+    "image": "/images/Skardu Valley Explorer.jpeg",
+    "originalPrice": 1050
   },
   {
     "id": "hunza-valley",
@@ -292,13 +292,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2400,
     "difficulty": "Easy",
     "bestSeason": "Apr\u2013Oct",
-    "price": 1150,
+    "price": 950,
     "tags": [
       "green-valleys",
       "culture"
     ],
-    "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 1400
+    "image": "https://cdn-blog.zameen.com/blog/wp-content/uploads/2020/01/Cover-29-01.jpg",
+    "originalPrice": 1150
   },
   {
     "id": "deosai",
@@ -316,8 +316,8 @@ export const tours: Tour[] = [
       "green-valleys",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 950
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08Iwkm-8IEQHGQeT-n5he3419e0xVuGPkWfaopd49As89xUnw71XGs70&s=10",
+    "originalPrice": 900
   },
   {
     "id": "naltar-valley",
@@ -330,12 +330,12 @@ export const tours: Tour[] = [
     "altitudeMeters": 2900,
     "difficulty": "Easy",
     "bestSeason": "May\u2013Oct",
-    "price": 580,
+    "price": 650,
     "tags": [
       "green-valleys"
     ],
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 750
+    "image": "/images/Naltar Valley Lakes.jpeg",
+    "originalPrice": 800
   },
   {
     "id": "phander-valley",
@@ -348,13 +348,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2800,
     "difficulty": "Easy",
     "bestSeason": "May\u2013Oct",
-    "price": 720,
+    "price": 1200,
     "tags": [
       "green-valleys",
       "culture"
     ],
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 900
+    "image": "/images/Phander Lake.jpeg",
+    "originalPrice": 1450
   },
   {
     "id": "bilamik-valley",
@@ -367,14 +367,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 2800,
     "difficulty": "Easy",
     "bestSeason": "May\u2013Oct",
-    "price": 620,
+    "price": 600,
     "tags": [
       "green-valleys",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 800
+    "image": "/images/Bilamik Valley.jpeg",
+    "originalPrice": 750
   },
   {
     "id": "tormik-valley",
@@ -387,14 +387,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 2900,
     "difficulty": "Easy",
     "bestSeason": "May\u2013Oct",
-    "price": 580,
+    "price": 550,
     "tags": [
       "green-valleys",
       "homestay",
       "culture"
     ],
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 750
+    "image": "/images/Tormik Valley.jpeg",
+    "originalPrice": 700
   },
   {
     "id": "haramosh-kutawal",
@@ -407,15 +407,15 @@ export const tours: Tour[] = [
     "altitudeMeters": 3800,
     "difficulty": "Moderate",
     "bestSeason": "Jun\u2013Sep",
-    "price": 1250,
+    "price": 1100,
     "tags": [
       "green-valleys",
       "snow-peaks",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 1550
+    "image": "https://northbackend.northonwheels.com/storage/uploads/kutwal-lake-haramosh-valley3.jpg",
+    "originalPrice": 1350
   },
   {
     "id": "basho-valley",
@@ -428,14 +428,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 3200,
     "difficulty": "Easy",
     "bestSeason": "May\u2013Oct",
-    "price": 480,
+    "price": 500,
     "tags": [
       "green-valleys",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 650
+    "image": "/images/Basho Valley.jpeg",
+    "originalPrice": 600
   },
   {
     "id": "chunda-valley",
@@ -448,14 +448,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 2950,
     "difficulty": "Leisure",
     "bestSeason": "Apr\u2013Oct",
-    "price": 320,
+    "price": 60,
     "tags": [
       "green-valleys",
       "photography",
       "culture"
     ],
-    "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 450
+    "image": "https://www.apricottours.pk/wp-content/uploads/2024/06/153009984_213922410482100_210234.jpg",
+    "originalPrice": 80
   },
   {
     "id": "hussain-abad-waterfall",
@@ -468,13 +468,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2350,
     "difficulty": "Leisure",
     "bestSeason": "Apr\u2013Oct",
-    "price": 120,
+    "price": 50,
     "tags": [
       "green-valleys",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 180
+    "image": "/images/Hussain Abad Waterfall.jpeg",
+    "originalPrice": 60
   },
   {
     "id": "sarfaranga-desert",
@@ -487,13 +487,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2450,
     "difficulty": "Easy",
     "bestSeason": "Apr\u2013Nov",
-    "price": 380,
+    "price": 120,
     "tags": [
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 500
+    "image": "/images/Sarfaranga Cold Desert.jpeg",
+    "originalPrice": 150
   },
   {
     "id": "katpana-desert",
@@ -506,13 +506,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2220,
     "difficulty": "Leisure",
     "bestSeason": "Year-round",
-    "price": 150,
+    "price": 60,
     "tags": [
       "photography",
       "camping"
     ],
-    "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 220
+    "image": "/images/Katpana Desert.jpeg",
+    "originalPrice": 80
   },
   {
     "id": "khamosh-waterfall",
@@ -525,13 +525,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2400,
     "difficulty": "Easy",
     "bestSeason": "May\u2013Sep",
-    "price": 290,
+    "price": 150,
     "tags": [
       "green-valleys",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 400
+    "image": "/images/Khamosh Waterfall.jpeg",
+    "originalPrice": 180
   },
   {
     "id": "manthokha-waterfall",
@@ -544,14 +544,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 2300,
     "difficulty": "Leisure",
     "bestSeason": "May\u2013Oct",
-    "price": 280,
+    "price": 130,
     "tags": [
       "green-valleys",
       "photography",
       "culture"
     ],
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 380
+    "image": "/images/Manthokha Waterfall.jpeg",
+    "originalPrice": 160
   },
   {
     "id": "nangma-valley",
@@ -564,13 +564,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 4200,
     "difficulty": "Moderate",
     "bestSeason": "Jun\u2013Sep",
-    "price": 1350,
+    "price": 1400,
     "tags": [
       "snow-peaks",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&q=80&auto=format&fit=crop",
+    "image": "https://gcp-na-images.contentstack.com/v3/assets/bltea6093859af6183b/blt8c7847d632dfe308/6998c4be07a30dccfa77ccf0/Worlds-Greatest-Places-2025-NangmaValleyTrek.jpg?branch=production",
     "originalPrice": 1700
   },
   {
@@ -584,14 +584,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 2840,
     "difficulty": "Easy",
     "bestSeason": "Jun\u2013Sep",
-    "price": 790,
+    "price": 800,
     "tags": [
       "green-valleys",
       "camping",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 980
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Minimarg%2C_Kashmir.jpg",
+    "originalPrice": 1000
   },
   {
     "id": "chutroon-hot-springs",
@@ -604,13 +604,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2600,
     "difficulty": "Leisure",
     "bestSeason": "Apr\u2013Nov",
-    "price": 420,
+    "price": 120,
     "tags": [
       "green-valleys",
       "culture"
     ],
-    "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 550
+    "image": "/images/Chutroon Thermal Springs.jpeg",
+    "originalPrice": 150
   },
   {
     "id": "naltar-ski",
@@ -623,14 +623,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 3200,
     "difficulty": "Moderate",
     "bestSeason": "Dec\u2013Feb",
-    "price": 1750,
+    "price": 1200,
     "tags": [
       "skiing",
       "snow-peaks",
       "camping"
     ],
-    "image": "https://images.fillout.com/792909/6cqckjyk3j/generated-images/wTK6EiJGhnCMDZkT7hb6Kr/img_ySCcGQNHtuILWExi.jpg",
-    "originalPrice": 2200
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Naltar_Slopy_Lands.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+    "originalPrice": 1450
   },
   {
     "id": "deosai-powder",
@@ -643,14 +643,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 4114,
     "difficulty": "Challenging",
     "bestSeason": "Jan\u2013Mar",
-    "price": 2450,
+    "price": 2100,
     "tags": [
       "skiing",
       "snow-peaks",
       "camping"
     ],
-    "image": "https://images.fillout.com/792909/6cqckjyk3j/generated-images/1gbCWjc2qecP8XjKu7iCzU/img_v2Urr8NjztruYfnh.jpg",
-    "originalPrice": 3000
+    "image": "https://evk2pakistan.org/wp-content/uploads/2023/04/Immagine9.jpg",
+    "originalPrice": 2550
   },
   {
     "id": "hispar-ski",
@@ -663,14 +663,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 5150,
     "difficulty": "Expert",
     "bestSeason": "Dec\u2013Mar",
-    "price": 3950,
+    "price": 3500,
     "tags": [
       "skiing",
       "snow-peaks",
       "camping"
     ],
-    "image": "https://images.fillout.com/792909/6cqckjyk3j/generated-images/wTodHy1xF2mhEUN7E7wCXJ/img_GphsO6IA1Sw4XHK5.jpg",
-    "originalPrice": 4800
+    "image": "/images/Hispar Glacier Ski.jpeg",
+    "originalPrice": 4200
   },
   {
     "id": "hunza-heritage",
@@ -683,13 +683,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2400,
     "difficulty": "Easy",
     "bestSeason": "Apr\u2013Oct",
-    "price": 950,
+    "price": 1100,
     "tags": [
       "culture",
       "homestay"
     ],
-    "image": "https://images.fillout.com/792909/6cqckjyk3j/generated-images/i9vJxHKgc6HyAuw2e6AxrQ/img_alpgNOYOz2ffZqDB.jpg",
-    "originalPrice": 1250
+    "image": "https://hunzaadventuretours.com/wp-content/uploads/2022/04/Baltit_Fort_-Hunza-Valley.jpg",
+    "originalPrice": 1350
   },
   {
     "id": "royal-baltistan",
@@ -702,13 +702,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2500,
     "difficulty": "Easy",
     "bestSeason": "May\u2013Sep",
-    "price": 850,
+    "price": 1200,
     "tags": [
       "culture",
       "heritage"
     ],
-    "image": "https://images.fillout.com/792909/6cqckjyk3j/generated-images/w71RikXNMF5n78J1LjDtDT/img_NAJtFyUIKkJg-8Mv.jpg",
-    "originalPrice": 1100
+    "image": "/images/Royal Baltistan Heritage Tour.jpeg",
+    "originalPrice": 1450
   },
   {
     "id": "gilgit-bazaar",
@@ -721,12 +721,12 @@ export const tours: Tour[] = [
     "altitudeMeters": 1500,
     "difficulty": "Leisure",
     "bestSeason": "Apr\u2013Oct",
-    "price": 110,
+    "price": 70,
     "tags": [
       "culture"
     ],
-    "image": "https://images.fillout.com/792909/6cqckjyk3j/generated-images/2up8Kr4RVjtmBuFu8mQxMF/img_J7hMtuxoDTbe4TaG.jpg",
-    "originalPrice": 160
+    "image": "/images/Gilgit Silk Route Bazaar.jpeg",
+    "originalPrice": 90
   },
   {
     "id": "nowruz-festival",
@@ -739,13 +739,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2400,
     "difficulty": "Easy",
     "bestSeason": "Mar",
-    "price": 680,
+    "price": 1350,
     "tags": [
       "culture",
       "festival"
     ],
-    "image": "https://images.fillout.com/792909/6cqckjyk3j/generated-images/riFxtZcfdY8skh6nYU9teV/img_SRFdQHurQvuwvlrP.jpg",
-    "originalPrice": 880
+    "image": "/images/Nowruz Spring Festival.jpeg",
+    "originalPrice": 1650
   },
   {
     "id": "kharpocho-organic-village",
@@ -758,14 +758,14 @@ export const tours: Tour[] = [
     "altitudeMeters": 2400,
     "difficulty": "Easy",
     "bestSeason": "Apr\u2013Nov",
-    "price": 140,
+    "price": 80,
     "tags": [
       "culture",
       "homestay",
       "heritage"
     ],
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 200
+    "image": "/images/Nansoq Organic Village.jpeg",
+    "originalPrice": 100
   },
   {
     "id": "masur-rock",
@@ -778,13 +778,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2300,
     "difficulty": "Leisure",
     "bestSeason": "Apr\u2013Nov",
-    "price": 120,
+    "price": 60,
     "tags": [
       "culture",
       "heritage"
     ],
-    "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 170
+    "image": "/images/Masur Rock .jpeg",
+    "originalPrice": 80
   },
   {
     "id": "free-musical-night",
@@ -797,13 +797,13 @@ export const tours: Tour[] = [
     "altitudeMeters": 2250,
     "difficulty": "Leisure",
     "bestSeason": "Year-round",
-    "price": 80,
+    "price": 150,
     "tags": [
       "culture",
       "festival"
     ],
-    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 150
+    "image": "/images/Balti Folk Musical Night.jpeg",
+    "originalPrice": 180
   },
   {
     "id": "kalash-festival",
@@ -816,15 +816,36 @@ export const tours: Tour[] = [
     "altitudeMeters": 1900,
     "difficulty": "Easy",
     "bestSeason": "May",
-    "price": 1100,
+    "price": 1450,
     "tags": [
       "culture",
       "festival",
       "homestay",
       "photography"
     ],
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80&auto=format&fit=crop",
-    "originalPrice": 1450
+    "image": "/images/Chilam Joshi Festival.jpeg",
+    "originalPrice": 1750
+  },
+  {
+    "id": "shimshal-valley-ski",
+    "name": "Shimshal Valley Backcountry Ski & Lupka La Traverse",
+    "category": "ski",
+    "description": "Embark on a raw, human-powered backcountry ski expedition in the legendary \"Valley of Mountaineers,\" traversing vast glaciers and high-altitude passes.",
+    "duration": "14 days",
+    "durationDays": 14,
+    "altitude": "5,790m",
+    "altitudeMeters": 5790,
+    "difficulty": "Extreme",
+    "bestSeason": "Feb-Apr",
+    "price": 3200,
+    "tags": [
+      "Ski Touring",
+      "Winter",
+      "Extreme",
+      "Glacier"
+    ],
+    "image": "/images/Shimshal Valley Ski.jpeg",
+    "originalPrice": 3850
   }
 ];
 
@@ -844,22 +865,63 @@ export const testimonials: { id: string; quote: string; name: string; flag: stri
 ];
 
 export const galleryItems = [
-  { id: '1', title: 'K2 at Dawn', location: 'Concordia', category: 'mountains', height: 'h-80', image: 'https://images.unsplash.com/photo-1486911278844-a81c5267e227?w=600&q=80&auto=format&fit=crop' },
-  { id: '2', title: 'Hushe Bridge', location: 'Hushe Valley', category: 'treks', height: 'h-48', image: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80&auto=format&fit=crop' },
-  { id: '3', title: 'The Elder', location: 'Askole Village', category: 'people', height: 'h-96', image: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&q=80&auto=format&fit=crop' },
-  { id: '4', title: 'Attabad From Above', location: 'Upper Hunza', category: 'drone', height: 'h-64', image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80&auto=format&fit=crop' },
-  { id: '5', title: 'Basecamp Night', location: 'K2 Base Camp', category: 'camping', height: 'h-52', image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80&auto=format&fit=crop' },
-  { id: '6', title: 'Snow Leopard', location: 'Deosai Plateau', category: 'wildlife', height: 'h-72', image: 'https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=600&q=80&auto=format&fit=crop' },
-  { id: '7', title: 'Fairy Meadows', location: 'Diamer', category: 'valleys', height: 'h-56', image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80&auto=format&fit=crop' },
-  { id: '8', title: 'Summit Push', location: 'Broad Peak', category: 'expeditions', height: 'h-44', image: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600&q=80&auto=format&fit=crop' },
-  { id: '9', title: 'Passu Cones', location: 'Upper Hunza', category: 'mountains', height: 'h-64', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80&auto=format&fit=crop' },
-  { id: '10', title: "Eagle's Nest", location: 'Hunza', category: 'valleys', height: 'h-52', image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80&auto=format&fit=crop' },
-  { id: '11', title: 'Camp Kitchen', location: 'Baltoro', category: 'camping', height: 'h-48', image: 'https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600&q=80&auto=format&fit=crop' },
-  { id: '12', title: 'Balti Women', location: 'Skardu', category: 'people', height: 'h-72', image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80&auto=format&fit=crop' },
-  { id: '13', title: 'Deosai Plains', location: 'Deosai', category: 'valleys', height: 'h-56', image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80&auto=format&fit=crop' },
-  { id: '14', title: 'Trango Towers', location: 'Baltoro', category: 'mountains', height: 'h-80', image: 'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=600&q=80&auto=format&fit=crop' },
-  { id: '15', title: 'River Crossing', location: 'Shigar', category: 'treks', height: 'h-44', image: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600&q=80&auto=format&fit=crop' },
-  { id: '16', title: 'Sunset Flight', location: 'Skardu', category: 'drone', height: 'h-60', image: 'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?w=600&q=80&auto=format&fit=crop' },
+  // --- TREKS ---
+  { id: '1', title: 'K2 Base Camp Trek', location: 'Concordia', category: 'treks', height: 'h-80', image: '/images/k2 base camp trek.jpeg' },
+  { id: '2', title: 'K2 & Gondogoro La Trek', location: 'Gondogoro La Pass', category: 'treks', height: 'h-48', image: '/images/gondogoro la trek..jpeg' },
+  { id: '3', title: 'Snow Lake & Hispar La Trek', location: 'Biafo Glacier', category: 'treks', height: 'h-64', image: 'https://hunzaguidespakistan.com/wp-content/uploads/2021/12/Trekking-on-Biafo-Glacier-Snow-Lake-Trek.jpg' },
+  { id: '4', title: 'Fairy Meadows & Nanga Parbat Base Camp', location: 'Diamer', category: 'treks', height: 'h-56', image: 'https://www.jackandjilltravel.com/wp-content/uploads/2024/02/P8100236-2-scaled.jpg' },
+  { id: '5', title: 'Rakaposhi Base Camp Trek', location: 'Nagar Valley', category: 'treks', height: 'h-52', image: '/images/rakaposhi base camp trek.jpeg' },
+
+  // --- EXPEDITIONS ---
+  { id: '6', title: 'K2 Expedition (8,611m)', location: 'Central Karakoram', category: 'expeditions', height: 'h-96', image: 'https://adventureguide.com.pk/wp-content/uploads/2026/04/K2-trek-and-Gandagoro-7--1024x521.webp' },
+  { id: '7', title: 'Broad Peak Expedition (8,051m)', location: 'Broad Peak', category: 'expeditions', height: 'h-44', image: '/images/Broad Peak Expedition.jpeg' },
+  { id: '8', title: 'Gasherbrum II Expedition (8,035m)', location: 'Gasherbrum Ridge', category: 'expeditions', height: 'h-56', image: '/images/Gasherbrum II Expedition.jpeg' },
+  { id: '9', title: 'Spantik Peak Expedition (7,027m)', location: 'Golden Peak', category: 'expeditions', height: 'h-52', image: 'https://hunzaguidespakistan.com/wp-content/uploads/2022/02/Spantik-expedition-7027m.jpg' },
+  { id: '10', title: 'Nanga Parbat Expedition (8,126m)', location: 'Rupal Face', category: 'expeditions', height: 'h-72', image: '/images/Nanga Parbat Expedition.jpeg' },
+
+  // --- VALLEYS ---
+  { id: '11', title: 'Skardu Valley Explorer', location: 'Baltistan', category: 'valleys', height: 'h-52', image: '/images/Skardu Valley Explorer.jpeg' },
+  { id: '12', title: 'Hunza Valley Cultural Tour', location: 'Upper Hunza', category: 'valleys', height: 'h-48', image: 'https://cdn-blog.zameen.com/blog/wp-content/uploads/2020/01/Cover-29-01.jpg' },
+  { id: '13', title: 'Naltar Valley Emerald Lakes', location: 'Naltar Valley', category: 'valleys', height: 'h-72', image: '/images/Naltar Valley Lakes.jpeg' },
+  { id: '14', title: 'Phander Lake & Ghizer Valley', location: 'Ghizer Valley', category: 'valleys', height: 'h-56', image: '/images/Phander Lake.jpeg' },
+  { id: '15', title: 'Bilamik Valley Discovery', location: 'Rondu District', category: 'valleys', height: 'h-80', image: '/images/Bilamik Valley.jpeg' },
+  { id: '16', title: 'Tormik Valley Alpine Escape', location: 'Tormik', category: 'valleys', height: 'h-44', image: '/images/Tormik Valley.jpeg' },
+  { id: '17', title: 'Haramosh Valley & Kutawal Lake', location: 'Haramosh Valley', category: 'valleys', height: 'h-60', image: 'https://northbackend.northonwheels.com/storage/uploads/kutwal-lake-haramosh-valley3.jpg' },
+
+  // --- PEOPLE / CULTURAL ---
+  { id: '18', title: 'Gilgit Silk Route Bazaar & Kargha Buddha', location: 'Gilgit Bazaar', category: 'people', height: 'h-96', image: '/images/Gilgit Silk Route Bazaar.jpeg' },
+  { id: '19', title: 'Nowruz Spring Festival Tour', location: 'Gilgit-Baltistan', category: 'people', height: 'h-48', image: '/images/Nowruz Spring Festival.jpeg' },
+  { id: '20', title: 'Kalash Valley Chilam Joshi Festival', location: 'Kalash Valley', category: 'people', height: 'h-72', image: '/images/Chilam Joshi Festival.jpeg' },
+  { id: '21', title: 'Traditional Karakoram Cultural Heritage', location: 'Baltistan', category: 'people', height: 'h-64', image: '/images/cultural.jpeg' },
+
+  // --- CAMPING ---
+  { id: '22', title: 'Basecamp Night', location: 'K2 Base Camp', category: 'camping', height: 'h-52', image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80&auto=format&fit=crop' },
+  { id: '23', title: 'High-Altitude Karakoram Camp', location: 'Karakoram', category: 'camping', height: 'h-72', image: 'https://northbackend.northonwheels.com/storage/uploads/image_5694.jpg' },
+  { id: '24', title: 'Hunza Alpine Camping', location: 'Hunza Valley', category: 'camping', height: 'h-64', image: 'https://greenpaktourism.com/images/hunza-valley.webp' },
+  { id: '25', title: 'Skardu Starry Wilderness Camp', location: 'Skardu', category: 'camping', height: 'h-48', image: 'https://exploringpakistan.pk/wp-content/uploads/2024/12/Skardu-Trip-Image-5.jpg' },
+
+  // --- MOUNTAINS ---
+  { id: '26', title: 'K2 & Gondogoro La Trek', location: 'Gondogoro La Pass', category: 'mountains', height: 'h-48', image: '/images/gondogoro la trek..jpeg' },
+  { id: '27', title: 'Snow Lake & Hispar La Trek', location: 'Biafo Glacier', category: 'mountains', height: 'h-64', image: 'https://hunzaguidespakistan.com/wp-content/uploads/2021/12/Trekking-on-Biafo-Glacier-Snow-Lake-Trek.jpg' },
+  { id: '28', title: 'Fairy Meadows & Nanga Parbat Base Camp', location: 'Diamer', category: 'mountains', height: 'h-56', image: 'https://www.jackandjilltravel.com/wp-content/uploads/2024/02/P8100236-2-scaled.jpg' },
+  { id: '29', title: 'Rakaposhi Base Camp Trek', location: 'Nagar Valley', category: 'mountains', height: 'h-80', image: '/images/rakaposhi base camp trek.jpeg' },
+  { id: '30', title: 'K2 Base Camp Trek', location: 'Concordia', category: 'mountains', height: 'h-80', image: '/images/k2 base camp trek.jpeg' },
+  { id: '31', title: 'Broad Peak Expedition', location: 'Broad Peak (8,051m)', category: 'mountains', height: 'h-44', image: '/images/Broad Peak Expedition.jpeg' },
+  { id: '32', title: 'Gasherbrum I Expedition', location: 'Hidden Peak (8,080m)', category: 'mountains', height: 'h-44', image: 'https://summitk2.com/wp-content/uploads/2024/02/gasherbrum-i-expedition-Pakistan.jpeg' },
+  { id: '33', title: 'Skardu Valley Explorer', location: 'Skardu Valley', category: 'mountains', height: 'h-52', image: '/images/Skardu Valley Explorer.jpeg' },
+  { id: '34', title: 'Hunza Valley Cultural Tour', location: 'Hunza Valley', category: 'mountains', height: 'h-60', image: 'https://cdn-blog.zameen.com/blog/wp-content/uploads/2020/01/Cover-29-01.jpg' },
+
+  // --- WILDLIFE ---
+  { id: '35', title: 'Himalayan Wildlife Encounter', location: 'Karakoram Range', category: 'wildlife', height: 'h-72', image: 'https://preview.redd.it/animals-scenery-northern-pakistan-v0-k42wy09mliv81.png?width=640&crop=smart&auto=webp&s=c4f05d6c21e777671241c064112d79dabeff857e' },
+  { id: '36', title: 'Karakoram Ibex & Fauna', location: 'Khunjerab National Park', category: 'wildlife', height: 'h-56', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_D3WhggEhKlZ3Kq6NFVTltEH4zVQMSqdfz6rQgRteXg-05082OYNc2Fo&s=10' },
+  { id: '37', title: 'High-Altitude Alpine Wildlife', location: 'Deosai Plains', category: 'wildlife', height: 'h-64', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3t-kr_QNYqVUdz2PO0MvD6ASSPFkVjq6IS7mB1S35KepnaNi0cx3vJTTt&s=10' },
+  { id: '38', title: 'Northern Pakistan Mountain Wildlife', location: 'Gilgit-Baltistan', category: 'wildlife', height: 'h-60', image: 'https://islamabadpost.com.pk/wp-content/uploads/2024/07/52-1.jpg' },
+
+  // --- DRONE ---
+  { id: '39', title: 'Glacier Aerial Panorama', location: 'Northern Pakistan', category: 'drone', height: 'h-80', image: '/images/Drone Shot.jpeg' },
+  { id: '40', title: 'Karakoram Highway Aerial Flight', location: 'Gilgit-Baltistan', category: 'drone', height: 'h-64', image: 'https://videocdn.cdnpk.net/videos/1e778f85-830a-404b-a5d4-d552502f60d9/horizontal/thumbnails/large.jpg?semt=ais_hybrid&item_id=206505&w=740&q=80' },
+  { id: '41', title: 'Hunza River & Karakoram Range Aerial', location: 'Upper Hunza', category: 'drone', height: 'h-72', image: 'https://media.gettyimages.com/id/1516940976/video/aerial-drone-view-of-hunza-river-and-karakoram-range-mountain-along-the-road-through.jpg?s=640x640&k=20&c=pqWxu2-DANrW_t9Ar3HgY7R0m5-X67UqRVe9c3U8t0s=' },
+  { id: '42', title: 'Skardu Valley Aerial View', location: 'Skardu', category: 'drone', height: 'h-60', image: 'https://i.ytimg.com/vi/7EaO6BAVzNs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDUexUiLBR9uUYcU4dROyjN5II8sA' },
 ];
 
 export const galleryCategories = ['all', 'mountains', 'expeditions', 'treks', 'valleys', 'camping', 'people', 'wildlife', 'drone'];

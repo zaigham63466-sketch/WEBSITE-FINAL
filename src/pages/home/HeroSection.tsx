@@ -21,7 +21,7 @@ const slides: Slide[] = [
     description: 'Book your K2 Base Camp, Snow Lake, or Fairy Meadows trek before spaces fill.',
     cta: 'Explore Treks',
     to: '/treks',
-    image: 'https://images.fillout.com/793011/o6w6cvsetg/generated-images/5ddYQzdJBtGWDJ9x6aoDV7/img_2USf_ejKYxFIV3aO.jpg',
+    image: 'https://images.unsplash.com/photo-1597350340158-6b2c2ff93a3e?w=1600&q=80&auto=format&fit=crop',
     snow: true,
   },
   {
@@ -30,7 +30,7 @@ const slides: Slide[] = [
     description: 'Backcountry powder through pine forests and open bowls in the Karakoram.',
     cta: 'View Ski Tours',
     to: '/ski-tours',
-    image: 'https://images.fillout.com/793011/o6w6cvsetg/generated-images/oEPfap3FpVAmZUuWCEXFJt/img_UBNt00BOenbgYUzR.jpg',
+    image: 'https://images.unsplash.com/photo-1585654766816-8a9fe569d445?w=1600&q=80&auto=format&fit=crop',
     snow: true,
   },
   {
@@ -39,7 +39,7 @@ const slides: Slide[] = [
     description: 'Traditional music, dancing, and feasts in mountain villages — a once-a-year experience.',
     cta: 'Learn More',
     to: '/tours/nowruz-festival',
-    image: 'https://images.fillout.com/793011/o6w6cvsetg/generated-images/e5gGa5Dhu5G9tZURYZsQGc/img_Uo7YOpFxAGPckiAV.jpg',
+    image: 'https://images.unsplash.com/photo-1625865447666-ed0685236b85?w=1600&q=80&auto=format&fit=crop',
     snow: false,
   },
   {
@@ -48,7 +48,7 @@ const slides: Slide[] = [
     description: 'K2, Broad Peak, Gasherbrum — full expedition support for serious mountaineers.',
     cta: 'View Expeditions',
     to: '/expeditions',
-    image: 'https://images.fillout.com/793011/o6w6cvsetg/generated-images/2eaYniBLUZoB5WroJrNUzB/img_TTrY1LKoOKSQo91z.jpg',
+    image: 'https://images.unsplash.com/photo-1633100291356-19e4e0dcb98f?w=1600&q=80&auto=format&fit=crop',
     snow: true,
   },
 ];

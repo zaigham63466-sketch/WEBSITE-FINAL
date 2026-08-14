@@ -9,7 +9,7 @@ export default function AboutPreviewSection() {
         <ScrollReveal>
           <div className="aspect-[4/3] rounded-2xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&q=80&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1632133915653-8ded5c72e329?w=800&q=80&auto=format&fit=crop"
               alt="Mountain team at summit viewpoint"
               className="w-full h-full object-cover"
               loading="lazy"

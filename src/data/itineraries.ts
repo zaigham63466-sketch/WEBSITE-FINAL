@@ -2357,6 +2357,70 @@ export const tourDetails: Record<string, TourDetails> = {
       "Travel through the dramatic Lowari Tunnel and explore the historical Chitral Fort and Shahi Mosque.",
       "Visit all three distinct Kalash valleys: Bumburet, Rumbur, and the highly traditional Birir."
     ]
+  },
+  "shimshal-valley-ski": {
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1-2: Arrival in Islamabad and Drive to Hunza",
+        "description": "Your extreme winter expedition begins upon arrival in Islamabad. After a comprehensive expedition briefing and gear check, we begin the long drive northward via the Karakoram Highway. We pass through the stunning landscapes of Khyber Pakhtunkhwa and Gilgit, eventually reaching the village of Passu in Upper Hunza by the end of Day 2, where we rest before entering the remote valleys."
+      },
+      {
+        "day": 2,
+        "title": "Day 3: The Jeep Ride to Shimshal Valley",
+        "description": "Today features one of the most thrilling and perilous drives in the world. We transfer to specialized 4x4 jeeps to navigate the 53 km dirt road carved into the sheer cliffs of the gorge, connecting Passu to Shimshal. In winter conditions, this journey requires extreme skill from our local drivers. We arrive in Shimshal village (3,100m) and settle into a local Wakhi guesthouse for the night."
+      },
+      {
+        "day": 3,
+        "title": "Day 4: Acclimatization and Gear Preparation",
+        "description": "We spend the day in Shimshal village acclimatizing to the altitude and winter cold. You will have the opportunity to interact with the local Wakhi community, renowned for producing some of Pakistan's greatest high-altitude mountaineers. We sort our backcountry ski equipment, test avalanche beacons, and prepare our expedition supplies with our local porters and guides."
+      },
+      {
+        "day": 4,
+        "title": "Day 5-6: Ski Touring towards Yazghil Glacier",
+        "description": "Leaving the village behind, we begin our human-powered ski touring approach. We skin up toward the lower winter pastures and the massive Yazghil Glacier. The terrain here is raw and unmarked, requiring careful navigation and avalanche assessment. We establish our advanced winter camps in the snow, experiencing the profound silence and isolation of the Karakoram winter."
+      },
+      {
+        "day": 5,
+        "title": "Day 7-10: Khurdopin Glacier & High-Altitude Skiing",
+        "description": "These days form the core of the expedition as we push deeper into the \"Great Crossing\" route. We skin and ski along the vast Khurdopin Glacier, navigating around massive seracs and hidden crevasses. The daily routine involves strenuous climbing with skins followed by technical, ungroomed descents. We rely entirely on our expedition support team and extreme cold-weather camping gear, operating in temperatures that drop well below -20\u00b0C."
+      },
+      {
+        "day": 6,
+        "title": "Day 11: Lupka La Pass (5,790m) Ski Descent Attempts",
+        "description": "Weather and snow stability permitting, we attempt to reach the base and lower slopes of the towering Lupka La Pass. Here, elite skiers can test their limits on steep, high-altitude couloirs. This is extreme ski mountaineering at its finest, rewarding the grueling climb with pristine, untouched powder descents surrounded by 7,000m peaks."
+      },
+      {
+        "day": 7,
+        "title": "Day 12: Return Ski Trek to Shimshal Village",
+        "description": "We break our final high camp and begin the long ski and trek back toward civilization. Retracing our route along the glaciers, we finally descend back into Shimshal village. We celebrate the successful completion of the backcountry traverse with a warm, traditional Wakhi meal and the comfort of a heated guesthouse room."
+      },
+      {
+        "day": 8,
+        "title": "Day 13-14: Return to Passu and Drive to Islamabad",
+        "description": "We load our gear back into the 4x4 jeeps and navigate the gorge road back to Passu and the Karakoram Highway. From Hunza, we begin the long drive south over the next two days, arriving back in Islamabad on Day 14. We conclude the expedition with a farewell dinner before you depart for your onward journey."
+      }
+    ],
+    "included": [
+      "Specialized winter mountaineering guides and high-altitude porters.",
+      "Extreme cold weather camping gear (tents, mess tents, heaters).",
+      "All meals during the expedition (cooked at camp).",
+      "4x4 jeep transport on the Shimshal gorge road.",
+      "Round-trip road transport from Islamabad."
+    ],
+    "excluded": [
+      "Personal ski touring equipment (skis, skins, avalanche beacons, probes, shovels).",
+      "International flights and Pakistan visa.",
+      "Emergency helicopter rescue insurance (mandatory).",
+      "Personal extreme cold-weather clothing (down suits, expedition boots)."
+    ],
+    "highlights": [
+      "Experience authentic backcountry skiing in the remote and rugged Shimshal Valley.",
+      "Undertake parts of the legendary \"Great Crossing\" ski traverse across the Khurdopin Glacier.",
+      "Test your limits by skinning and skiing near the towering Lupka La Pass (5,790m).",
+      "Experience the incredible hospitality and resilience of the Wakhi people in winter.",
+      "Navigate the thrilling, snow-covered 53 km jeep road from Passu to Shimshal."
+    ]
   }
 };
 

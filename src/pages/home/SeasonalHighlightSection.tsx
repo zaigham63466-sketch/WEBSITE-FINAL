@@ -18,7 +18,7 @@ export default function SeasonalHighlightSection() {
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div className="aspect-[16/9] rounded-2xl overflow-hidden">
               <img
-                src="https://images.fillout.com/792909/6cqckjyk3j/generated-images/f3oreHYVDKZJgXPjDG6jpJ/img_GJHxdaXmyxci-kVl.jpg"
+                src="https://images.unsplash.com/photo-1611821427154-edd4d40d7ea5?w=1600&q=80&auto=format&fit=crop"
                 alt="Trekker on Baltoro Glacier with K2"
                 className="w-full h-full object-cover"
                 loading="lazy"

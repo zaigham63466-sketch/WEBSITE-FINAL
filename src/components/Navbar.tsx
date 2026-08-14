@@ -22,7 +22,7 @@ export default function Navbar() {
   const location = useLocation();
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > UTILITY_BAR_HEIGHT);
+    const onScroll = () => setScrolled(window.scrollY > 0);
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
@@ -31,8 +31,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'top-0 bg-background/95 backdrop-blur-xl shadow-sm border-b border-border/50' : 'bg-background/60 backdrop-blur-sm'}`}
-      style={{ top: scrolled ? 0 : UTILITY_BAR_HEIGHT }}
+      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-background/95 backdrop-blur-xl shadow-sm border-b border-border/50' : 'bg-background/80 backdrop-blur-md border-b border-border/30'}`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">

@@ -217,13 +217,30 @@ export const tours: Tour[] = [
     "altitude": "8,035m",
     "altitudeMeters": 8035,
     "difficulty": "Expert",
-    "bestSeason": "Jun\u2013Jul",
+    "bestSeason": "Jun–Jul",
     "price": 14000,
     "tags": [
       "snow-peaks"
     ],
     "image": "/images/Gasherbrum II Expedition.jpeg",
     "originalPrice": 16800
+  },
+  {
+    "id": "khosar-gang",
+    "name": "Khosar Gang Expedition (6,401m)",
+    "category": "expedition",
+    "description": "An accessible 6,000m peak in the Shigar Valley, perfect as a training climb for higher Karakoram summits. This beginner-friendly expedition features a relatively short approach from Skardu and involves glacier travel with mixed icy and rocky sections.",
+    "duration": "16 days",
+    "durationDays": 16,
+    "altitude": "6,401m",
+    "altitudeMeters": 6401,
+    "difficulty": "Moderate",
+    "bestSeason": "Jun–Sep",
+    "price": 6000,
+    "tags": [
+      "snow-peaks"
+    ],
+    "image": "/images/Khosar Gang Expedition.jpeg"
   },
   {
     "id": "spantik-expedition",

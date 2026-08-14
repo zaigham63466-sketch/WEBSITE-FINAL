@@ -840,6 +840,56 @@ export const tourDetails: Record<string, TourDetails> = {
       "Trek the legendary Baltoro Glacier route through Concordia to reach the remote Gasherbrum massif."
     ]
   },
+  "khosar-gang": {
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1–2 – Arrival in Islamabad & Transfer to Skardu",
+        "description": "Arrive in Islamabad and complete any necessary expedition briefings. Take the scenic mountain flight to Skardu (or drive via the Karakoram Highway if flights are grounded). Spend your time in Skardu sorting gear, resting, and finalizing logistics."
+      },
+      {
+        "day": 2,
+        "title": "Day 3–4 – Drive to Trailhead & Trek to Base Camp",
+        "description": "Drive from Skardu to the trailhead near Sildi/Kashmal village in the Shigar Valley. Begin the relatively short approach trek, arriving at Khosar Gang Base Camp (approx. 3,800m–4,000m). Set up camp and prepare for the climb."
+      },
+      {
+        "day": 3,
+        "title": "Day 5–11 – Acclimatization Rotations & High Camps",
+        "description": "Spend these days acclimatizing and establishing high camps. You will practice glacier travel and navigate mixed icy and rocky sections on the mountain, returning to Base Camp for rest and recovery between rotations."
+      },
+      {
+        "day": 4,
+        "title": "Day 12–14 – Summit Push Window",
+        "description": "Wait for a clear weather window. Once conditions are favorable, push for the 6,401m summit of Khosar Gang. Enjoy spectacular views of Spantik, Nanga Parbat, and distant 8,000m peaks from the top before safely descending."
+      },
+      {
+        "day": 5,
+        "title": "Day 15–16 – Descent, Trek Out & Return to Islamabad",
+        "description": "Descend fully to Base Camp, pack up, and trek back to the Shigar Valley roadhead. Drive back to Skardu and fly (or drive) back to Islamabad for your final departure."
+      }
+    ],
+    "included": [
+      "Domestic flights (Islamabad to Skardu) and 4x4 transfers to the Shigar Valley trailhead.",
+      "Licensed high-altitude climbing guides and local Balti support staff.",
+      "All meals from arrival in Pakistan through the entire expedition.",
+      "Complete Base Camp services (sleeping tents, dining tent, toilet tent, generator/solar power).",
+      "Group climbing gear for the route."
+    ],
+    "excluded": [
+      "International flights to and from Pakistan.",
+      "Pakistan tourist visa fees.",
+      "Comprehensive high-altitude rescue and travel insurance.",
+      "Personal climbing equipment.",
+      "Guide and staff gratuities."
+    ],
+    "highlights": [
+      "Summit a 6,401m Karakoram peak in the Shigar Valley (known locally as 'Ice Pumpkin').",
+      "An ideal, beginner-friendly training peak for future 7,000m or 8,000m attempts.",
+      "Enjoy spectacular views of Spantik, Nanga Parbat, and distant 8,000m giants from the summit.",
+      "Experience climbing a peak first ascended in 1899 by Dr. William Hunter Workman and Fanny Bullock Workman.",
+      "Located in an open zone, requiring no restricted climbing permits."
+    ]
+  },
   "spantik-expedition": {
     "itinerary": [
       {

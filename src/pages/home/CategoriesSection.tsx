@@ -4,11 +4,11 @@ import ScrollReveal from '@/components/ScrollReveal';
 import SnowParticles from '@/components/SnowParticles';
 
 const categories = [
-  { title: 'Treks', desc: 'Multi-day treks through the Karakoram and Himalaya.', to: '/treks', image: 'https://images.fillout.com/787707/uj5xirpqpn/generated-images/jGAsogSteoLWA1v7dyG3uf/img_cP5i4Pt2lZpxvApt.jpg', snow: true },
-  { title: 'Expeditions', desc: '8,000m peaks for experienced mountaineers.', to: '/expeditions', image: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&q=80&auto=format&fit=crop', snow: true },
-  { title: 'Valleys', desc: "Cultural tours through Pakistan's most beautiful valleys.", to: '/valleys', image: 'https://images.fillout.com/787707/uj5xirpqpn/generated-images/aGDwEECGyw2djZPCoX3yQX/img_lZg5xRlwXVGAdyYs.jpg', snow: false },
-  { title: 'Ski Tours', desc: "Backcountry skiing across Pakistan's legendary peaks.", to: '/ski-tours', image: 'https://images.fillout.com/792909/6cqckjyk3j/generated-images/7PrKnd1YZN3RKGPciGeDew/img_ll0InZd1jRY3CGZX.jpg', snow: true },
-  { title: 'Cultural Tours', desc: 'Heritage sites, homestays, and living traditions.', to: '/cultural-tours', image: 'https://images.fillout.com/792909/6cqckjyk3j/generated-images/i4hbR5b3GrSC9kCahhaMx8/img_-DtV1FG4NC4FkIZB.jpg', snow: false },
+  { title: 'Treks', desc: 'Multi-day treks through the Karakoram and Himalaya.', to: '/treks', image: '/images/k2 base camp trek.jpeg', snow: true },
+  { title: 'Expeditions', desc: '8,000m peaks for experienced mountaineers.', to: '/expeditions', image: '/images/Broad Peak Expedition.jpeg', snow: true },
+  { title: 'Valleys', desc: "Cultural tours through Pakistan's most beautiful valleys.", to: '/valleys', image: '/images/Skardu Valley Explorer.jpeg', snow: false },
+  { title: 'Ski Tours', desc: "Backcountry skiing across Pakistan's legendary peaks.", to: '/ski-tours', image: '/images/Hispar Glacier Ski.jpeg', snow: true },
+  { title: 'Cultural Tours', desc: 'Heritage sites, homestays, and living traditions.', to: '/cultural-tours', image: '/images/cultural.jpeg', snow: false },
 ];
 
 export default function CategoriesSection() {

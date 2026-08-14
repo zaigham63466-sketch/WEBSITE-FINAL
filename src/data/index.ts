@@ -866,7 +866,7 @@ export const tours: Tour[] = [
       "glacier",
       "photography"
     ],
-    "image": "https://hunzaguidespakistan.com/wp-content/uploads/2021/12/Trekking-on-Biafo-Glacier-Snow-Lake-Trek.jpg"
+    "image": "/images/Jamal Pass.jpeg"
   }
 ];
 

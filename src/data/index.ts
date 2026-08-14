@@ -7,7 +7,7 @@ export interface Tour {
   durationDays: number;
   altitude: string;
   altitudeMeters: number;
-  difficulty: 'Leisure' | 'Easy' | 'Moderate' | 'Challenging' | 'Expert';
+  difficulty: 'Leisure' | 'Easy' | 'Moderate' | 'Challenging' | 'Expert' | 'Extreme';
   bestSeason: string;
   price: number;
   originalPrice?: number;

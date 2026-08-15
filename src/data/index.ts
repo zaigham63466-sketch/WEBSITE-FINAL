@@ -982,8 +982,7 @@ export const founders: Founder[] = [
   {
     name: 'Ali Hussain',
     role: 'Founder',
-    bio: 'Dedicated to leading authentic mountain journeys across the Karakoram and sharing the grandeur of Gilgit-Baltistan with travelers worldwide.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80&auto=format&fit=crop',
+    bio: 'Born among the giants of Gilgit-Baltistan, Ali founded K2 Adventure to share the raw majesty of the Karakoram with the world. His life’s work is bridging cultures and ensuring that every traveler experiences the true spirit, hospitality, and untamed beauty of Northern Pakistan.',
   },
   {
     name: 'Ali Muhammad',

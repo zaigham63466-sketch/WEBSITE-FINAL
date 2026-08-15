@@ -3,7 +3,6 @@ import { Suspense, lazy } from 'react';
 import TopUtilityBar from '@/components/TopUtilityBar';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import WhatsAppWidget from '@/components/WhatsAppWidget';
 import { Toaster } from '@/components/ui/sonner';
 
 const HomePage = lazy(() => import('@/pages/HomePage'));
@@ -45,7 +44,6 @@ export default function App() {
         </Suspense>
       </main>
       <Footer />
-      <WhatsAppWidget />
       <Toaster />
     </BrowserRouter>
   );

@@ -988,7 +988,7 @@ export const founders: Founder[] = [
   {
     name: 'Ali Muhammad',
     role: 'Co-Founder',
-    bio: 'Committed to seamless travel operations, cultural immersion, and delivering unforgettable expedition experiences across Pakistan.',
+    bio: 'An 8-year veteran of Karakoram trekking and expeditions, he has crossed Gondogoro La multiple times and guided climbers to the summit of several 6,000m peaks across Northern Pakistan, bringing hands-on route knowledge to every trip.',
   },
 ];
 

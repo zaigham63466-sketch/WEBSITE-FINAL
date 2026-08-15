@@ -236,7 +236,7 @@ export const tours: Tour[] = [
     "altitudeMeters": 6401,
     "difficulty": "Moderate",
     "bestSeason": "Jun–Sep",
-    "price": 6000,
+    "price": 2200,
     "tags": [
       "snow-peaks"
     ],

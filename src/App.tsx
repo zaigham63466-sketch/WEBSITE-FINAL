@@ -17,6 +17,7 @@ const TourDetailPage = lazy(() => import('@/pages/TourDetailPage'));
 const SkiToursPage = lazy(() => import('@/pages/SkiToursPage'));
 const CulturalToursPage = lazy(() => import('@/pages/CulturalToursPage'));
 const SafetyPage = lazy(() => import('@/pages/SafetyPage'));
+const VisaGuidePage = lazy(() => import('@/pages/VisaGuidePage'));
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/safety" element={<SafetyPage />} />
             <Route path="/tours/:id" element={<TourDetailPage />} />
+            <Route path="/pakistan-visa-guide" element={<VisaGuidePage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </Suspense>

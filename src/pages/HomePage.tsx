@@ -5,6 +5,7 @@ import AboutPreviewSection from '@/pages/home/AboutPreviewSection';
 import TrustSection from '@/pages/home/TrustSection';
 import TestimonialsSection from '@/pages/home/TestimonialsSection';
 import SeasonalHighlightSection from '@/pages/home/SeasonalHighlightSection';
+import VisaTeaserSection from '@/pages/home/VisaTeaserSection';
 import HomeContactSection from '@/pages/home/HomeContactSection';
 
 export default function HomePage() {
@@ -17,6 +18,7 @@ export default function HomePage() {
       <TrustSection />
       <TestimonialsSection />
       <SeasonalHighlightSection />
+      <VisaTeaserSection />
       <HomeContactSection />
     </>
   );

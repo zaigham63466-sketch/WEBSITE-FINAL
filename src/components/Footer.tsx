@@ -26,6 +26,7 @@ export default function Footer() {
             <p className="font-medium text-foreground mb-3">Company</p>
             <Link to="/about" className="block hover:text-foreground transition-colors">About Us</Link>
             <Link to="/safety" className="block hover:text-foreground transition-colors">Safety</Link>
+            <Link to="/pakistan-visa-guide" className="block hover:text-foreground transition-colors">Visa Guide</Link>
             <Link to="/contact" className="block hover:text-foreground transition-colors">Contact</Link>
           </div>
         </div>

@@ -132,6 +132,61 @@ export default function VisaGuidePage() {
                     <AccordionTrigger className="hover:no-underline py-4">
                       <div className="flex items-center gap-3 text-left">
                         <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">1</span>
+                        <span className="font-medium text-foreground text-base md:text-lg">What is the real-world processing time for a Trekking Visa?</span>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground pb-4 pl-13 text-base leading-relaxed">
+                      While the official NADRA estimate for a Trekking & Mountaineering Visa is 4 to 6 weeks, real-world reports from travelers indicate that processing can sometimes take 45 days to over two months, particularly during peak season backlogs or if additional security clearances are required. We highly recommend building in a solid time buffer and applying as early as the portal allows.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="faq-2" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
+                    <AccordionTrigger className="hover:no-underline py-4">
+                      <div className="flex items-center gap-3 text-left">
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">2</span>
+                        <span className="font-medium text-foreground text-base md:text-lg">Should I book my flights before my visa is approved?</span>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground pb-4 pl-13 text-base leading-relaxed">
+                      Given the known variability in processing times, we strongly advise against booking non-refundable flights before your e-Visa and NOC are fully approved. If you must secure dates early, ensure you purchase fully flexible or refundable tickets to protect your investment in case of administrative delays.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="faq-3" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
+                    <AccordionTrigger className="hover:no-underline py-4">
+                      <div className="flex items-center gap-3 text-left">
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">3</span>
+                        <span className="font-medium text-foreground text-base md:text-lg">Do I need special travel insurance for trekking in Pakistan?</span>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground pb-4 pl-13 text-base leading-relaxed">
+                      Yes. Standard travel insurance policies almost universally exclude high-altitude trekking and regions under certain government travel advisories. You must ensure your policy explicitly covers trekking up to your maximum planned altitude (e.g., 5,500m for Concordia) and includes helicopter search, rescue, and evacuation in Pakistan. Helicopter rescues in Gilgit-Baltistan require a hefty advance deposit which your specialized insurance will need to guarantee.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="faq-4" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
+                    <AccordionTrigger className="hover:no-underline py-4">
+                      <div className="flex items-center gap-3 text-left">
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">4</span>
+                        <span className="font-medium text-foreground text-base md:text-lg">I have Pakistani family/heritage — can I just use a Family Visa for trekking?</span>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground pb-4 pl-13 text-base leading-relaxed">
+                      No. Even if you hold a valid Family Visit Visa, National Identity Card for Overseas Pakistanis (NICOP), or a Pakistan Origin Card (POC), you are still legally required to obtain a specific NOC permit and Sponsor Letter from a licensed tour operator if you intend to enter restricted military zones like the Baltoro Glacier. A standard visa or NICOP alone does not grant access to restricted trekking areas.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="faq-5" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
+                    <AccordionTrigger className="hover:no-underline py-4">
+                      <div className="flex items-center gap-3 text-left">
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">5</span>
+                        <span className="font-medium text-foreground text-base md:text-lg">Is it safe to trek in Gilgit-Baltistan given current travel advisories?</span>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground pb-4 pl-13 text-base leading-relaxed">
+                      Many foreign travel advisories issue broad warnings for Pakistan based on historical context or specific conflict-prone border regions (like parts of KP or Balochistan). However, Gilgit-Baltistan—where the Karakoram is located—is geographically isolated from these areas and has remained peaceful, highly secure, and welcoming for trekkers for decades. While you should always review your government's current official advisory before traveling, it is important to distinguish the specific realities of the northern trekking regions from broader national alerts.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="faq-6" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
+                    <AccordionTrigger className="hover:no-underline py-4">
+                      <div className="flex items-center gap-3 text-left">
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">6</span>
                         <span className="font-medium text-foreground text-base md:text-lg">Do I need a permit to climb a 6,000m peak like Khosar Gang?</span>
                       </div>
                     </AccordionTrigger>
@@ -139,10 +194,10 @@ export default function VisaGuidePage() {
                       Khosar Gang (6,401m) is in an open zone and does not require a restricted trekking permit or a peak permit. However, any peak in Pakistan that exceeds 6,500m strictly requires a formal climbing permit and royalty fee, regardless of its location.
                     </AccordionContent>
                   </AccordionItem>
-                  <AccordionItem value="faq-2" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
+                  <AccordionItem value="faq-7" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
                     <AccordionTrigger className="hover:no-underline py-4">
                       <div className="flex items-center gap-3 text-left">
-                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">2</span>
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">7</span>
                         <span className="font-medium text-foreground text-base md:text-lg">Can I trek to K2 Base Camp without a guide?</span>
                       </div>
                     </AccordionTrigger>
@@ -150,10 +205,10 @@ export default function VisaGuidePage() {
                       No. K2 Base Camp is located within a restricted military zone. Independent trekking is entirely illegal here; you must be part of an organized tour with a licensed guide and hold a formal NOC permit.
                     </AccordionContent>
                   </AccordionItem>
-                  <AccordionItem value="faq-3" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
+                  <AccordionItem value="faq-8" className="bg-card border border-border rounded-lg px-5 data-[state=open]:border-primary/30 transition-colors">
                     <AccordionTrigger className="hover:no-underline py-4">
                       <div className="flex items-center gap-3 text-left">
-                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">3</span>
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary text-base font-bold flex items-center justify-center">8</span>
                         <span className="font-medium text-foreground text-base md:text-lg">Will you help me with my visa?</span>
                       </div>
                     </AccordionTrigger>

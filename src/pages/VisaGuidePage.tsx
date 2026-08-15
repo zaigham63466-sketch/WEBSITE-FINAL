@@ -49,16 +49,7 @@ export default function VisaGuidePage() {
                 <li><strong className="text-foreground">Mountaineering & Trekking Visa:</strong> The mandatory category if you are heading into "restricted" zones, which includes the Baltoro Glacier, K2 Base Camp, Concordia, or climbing peaks above 6,500m.</li>
               </ul>
 
-              <div className="my-16 aspect-video w-full rounded-xl overflow-hidden border border-border bg-muted">
-                {/* YOUR_YOUTUBE_EMBED_URL_HERE */}
-                <iframe 
-                  className="w-full h-full"
-                  src="YOUR_YOUTUBE_EMBED_URL_HERE" 
-                  title="Pakistan Visa Process" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen
-                ></iframe>
-              </div>
+
 
               <h2 id="application-process" className="text-2xl font-bold mt-16 mb-6 text-foreground">The Application Process</h2>
               <p className="text-muted-foreground leading-[1.8] mb-6 max-w-[75ch]">

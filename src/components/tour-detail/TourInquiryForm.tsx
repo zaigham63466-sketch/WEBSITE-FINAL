@@ -10,23 +10,36 @@ import { Send } from 'lucide-react';
 
 export default function TourInquiryForm({ tour }: { tour: Tour }) {
   const [sending, setSending] = useState(false);
-  const [form, setForm] = useState({ name: '', email: '', phone: '', groupSize: '', date: '', message: '' });
+  const [form, setForm] = useState({ name: '', email: '', phone: '', groupSize: '', date: '', message: '', website: '' });
 
   const update = (field: string, value: string) => setForm(prev => ({ ...prev, [field]: value }));
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name || !form.email) {
       toast.error('Please fill in your name and email.');
       return;
     }
     setSending(true);
-    // Simulate submission
-    setTimeout(() => {
+    try {
+      const res = await fetch('/api/inquiry', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form)
+      });
+      const data = await res.json();
+      
+      if (data.success) {
+        toast.success('Inquiry sent! We\'ll get back to you within 24 hours.');
+        setForm({ name: '', email: '', phone: '', groupSize: '', date: '', message: '', website: '' });
+      } else {
+        toast.error(data.error || 'Failed to send inquiry.');
+      }
+    } catch (err) {
+      toast.error('Network error. Please try again later.');
+    } finally {
       setSending(false);
-      toast.success('Inquiry sent! We\'ll get back to you within 24 hours.');
-      setForm({ name: '', email: '', phone: '', groupSize: '', date: '', message: '' });
-    }, 1200);
+    }
   };
 
   return (
@@ -40,6 +53,7 @@ export default function TourInquiryForm({ tour }: { tour: Tour }) {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
+          <input type="text" name="website" value={form.website} onChange={e => update('website', e.target.value)} style={{ position: 'absolute', opacity: 0, zIndex: -1 }} tabIndex={-1} autoComplete="off" />
           <div>
             <Label htmlFor="name">Full Name *</Label>
             <Input id="name" value={form.name} onChange={e => update('name', e.target.value)} placeholder="Your name" className="mt-1" />

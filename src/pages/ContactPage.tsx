@@ -11,19 +11,33 @@ const contacts = [
 ];
 
 export default function ContactPage() {
-  const [form, setForm] = useState({ name: '', email: '', phone: '', trek: '', dates: '', group: '', message: '' });
+  const [form, setForm] = useState({ name: '', email: '', phone: '', trek: '', dates: '', group: '', message: '', website: '' });
   const [sending, setSending] = useState(false);
   const set = (k: string, v: string) => setForm(p => ({ ...p, [k]: v }));
 
-  const submit = (e: React.FormEvent) => {
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) { toast.error('Please fill required fields.'); return; }
     setSending(true);
-    setTimeout(() => {
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form)
+      });
+      const data = await res.json();
+      
+      if (data.success) {
+        toast.success("Inquiry sent! We'll reply within 24 hours.");
+        setForm({ name: '', email: '', phone: '', trek: '', dates: '', group: '', message: '', website: '' });
+      } else {
+        toast.error(data.error || 'Failed to send message.');
+      }
+    } catch (err) {
+      toast.error('Network error. Please try again later.');
+    } finally {
       setSending(false);
-      toast.success("Inquiry sent! We'll reply within 24 hours.");
-      setForm({ name: '', email: '', phone: '', trek: '', dates: '', group: '', message: '' });
-    }, 1000);
+    }
   };
 
   const inputCls = 'w-full px-4 py-3 rounded-xl bg-background border border-border text-sm focus:outline-none focus:ring-1 focus:ring-ring placeholder:text-muted-foreground';
@@ -50,6 +64,7 @@ export default function ContactPage() {
         <div className="max-w-2xl mx-auto">
           <ScrollReveal><h2 className="text-2xl font-bold text-center mb-8">Send an Inquiry</h2></ScrollReveal>
           <form onSubmit={submit} className="space-y-4">
+            <input type="text" name="website" value={form.website} onChange={e => set('website', e.target.value)} style={{ position: 'absolute', opacity: 0, zIndex: -1 }} tabIndex={-1} autoComplete="off" />
             <div className="grid sm:grid-cols-2 gap-4">
               <input placeholder="Your Name *" value={form.name} onChange={e => set('name', e.target.value)} className={inputCls} />
               <input placeholder="Email *" type="email" value={form.email} onChange={e => set('email', e.target.value)} className={inputCls} />

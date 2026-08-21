@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "postinstall": "npm run build",
     "start": "node server/index.js",
     "dev": "vite",
     "build": "tsc -b && vite build",

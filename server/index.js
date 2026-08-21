@@ -2,6 +2,7 @@ import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import db from './db.js';
+import { sendAdminNotification, sendCustomerConfirmation } from './mailer.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -68,7 +69,17 @@ app.post('/api/inquiry', rateLimiter, async (req, res) => {
       ['inquiry', safeName, safeEmail, safePhone, safeGroupSize, safeDate, safeMessage]
     );
 
-    // TODO: send email notification here
+    const leadData = {
+      source: 'inquiry',
+      name: safeName,
+      email: safeEmail,
+      phone: safePhone,
+      group_size: safeGroupSize,
+      travel_dates: safeDate,
+      message: safeMessage
+    };
+    sendAdminNotification(leadData);
+    sendCustomerConfirmation(leadData);
 
     return res.json({ success: true });
   } catch (error) {
@@ -107,7 +118,18 @@ app.post('/api/contact', rateLimiter, async (req, res) => {
       ['contact', safeName, safeEmail, safePhone, safeTrek, safeDates, safeGroup, safeMessage]
     );
 
-    // TODO: send email notification here
+    const leadData = {
+      source: 'contact',
+      name: safeName,
+      email: safeEmail,
+      phone: safePhone,
+      tour_interested: safeTrek,
+      travel_dates: safeDates,
+      group_size: safeGroup,
+      message: safeMessage
+    };
+    sendAdminNotification(leadData);
+    sendCustomerConfirmation(leadData);
 
     return res.json({ success: true });
   } catch (error) {

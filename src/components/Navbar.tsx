@@ -45,8 +45,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          <Mountain className="w-5 h-5 text-primary" />
-          <span className="text-base font-bold tracking-tight">K2 ADVENTURE</span>
+          <img src="/images/logo.png" alt="K2 Adventure Pakistan" className="h-10 w-auto object-contain" />
         </Link>
         <div className="hidden md:flex items-center gap-8">
           {links.map(l => (

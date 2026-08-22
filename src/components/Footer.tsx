@@ -6,9 +6,8 @@ export default function Footer() {
     <footer className="border-t border-border">
       <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-start justify-between gap-10">
         <div>
-          <Link to="/" className="flex items-center gap-2 mb-3">
-            <Mountain className="w-5 h-5 text-primary" />
-            <span className="font-bold">K2 ADVENTURE</span>
+          <Link to="/" className="flex items-center gap-2 mb-4">
+            <img src="/images/logo.png" alt="K2 Adventure Pakistan" className="h-12 w-auto object-contain" />
           </Link>
           <p className="text-base text-muted-foreground">Treks & Expeditions since 2010.<br />Skardu, Gilgit-Baltistan, Pakistan.</p>
         </div>

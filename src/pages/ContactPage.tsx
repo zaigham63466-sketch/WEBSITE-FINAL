@@ -109,7 +109,7 @@ export default function ContactPage() {
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-start">
           <ScrollReveal>
             <h3 className="font-semibold mb-4">Our Office</h3>
-            <p className="text-sm text-muted-foreground">K2Adventure Treks & Expeditions<br />College Road, Skardu<br />Gilgit-Baltistan, Pakistan</p>
+            <p className="text-sm text-muted-foreground">K2 KARAKORAM ADVENTURES (SMC-PRIVATE) LIMITED<br />Karasmathang Road near Passport Office, Olding Skardu<br />Baltistan, Pakistan</p>
             <div className="mt-4 text-sm text-muted-foreground">
               <p className="font-medium text-foreground mb-2">Office Hours</p>
               <p>Mon – Sat: 9:00 AM – 6:00 PM (PKT)</p>

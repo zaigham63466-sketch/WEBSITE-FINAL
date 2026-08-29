@@ -9,7 +9,7 @@ export default function Footer() {
           <Link to="/" className="flex items-center gap-2 mb-4">
             <img src="/images/logo.png?v=2" alt="K2 Adventure Pakistan" className="h-12 w-auto object-contain" />
           </Link>
-          <p className="text-base text-muted-foreground">Treks & Expeditions since 2010.<br />Karasmathang Road near Passport Office, Olding Skardu, Baltistan, Pakistan.</p>
+          <p className="text-base text-muted-foreground">Treks & Expeditions since 2010.<br />Skardu, Gilgit-Baltistan, Pakistan.</p>
         </div>
         <div className="flex gap-12 md:gap-16 text-base text-muted-foreground">
           <div className="space-y-2.5">

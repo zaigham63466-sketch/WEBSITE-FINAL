@@ -9,7 +9,7 @@ export default function Footer() {
           <Link to="/" className="flex items-center gap-2 mb-4">
             <img src="/images/logo.png?v=2" alt="K2 Adventure Pakistan" className="h-12 w-auto object-contain" />
           </Link>
-          <p className="text-base text-muted-foreground">Treks & Expeditions since 2010.<br />Skardu, Gilgit-Baltistan, Pakistan.</p>
+          <p className="text-base text-muted-foreground">Treks & Expeditions since 2010.<br />Karasmathang Road near Passport Office, Olding Skardu, Baltistan, Pakistan.</p>
         </div>
         <div className="flex gap-12 md:gap-16 text-base text-muted-foreground">
           <div className="space-y-2.5">
@@ -43,7 +43,7 @@ export default function Footer() {
       </div>
       <div className="max-w-7xl mx-auto px-6 pb-8">
         <div className="border-t border-border pt-6">
-          <p className="text-sm text-muted-foreground">© 2026 K2Adventure Treks & Expeditions. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} K2 KARAKORAM ADVENTURES (SMC-PRIVATE) LIMITED. All rights reserved.</p>
           <p className="text-xs text-muted-foreground mt-1">GB Tourism License #XXXXX · Member, Adventure Travel Trade Association (ATTA) · Pakistan Tourism Development Corp. Registered</p>
         </div>
       </div>

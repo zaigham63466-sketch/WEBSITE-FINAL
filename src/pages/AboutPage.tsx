@@ -129,11 +129,7 @@ export default function AboutPage() {
           </div>
 
           <ScrollReveal delay={0.2}>
-            <div className="border border-border rounded-xl p-6 bg-card grid sm:grid-cols-3 gap-6 text-center sm:text-left items-center">
-              <div>
-                <p className="text-xs uppercase tracking-wider text-muted-foreground font-medium">Travel Agency</p>
-                <p className="text-base font-semibold text-foreground mt-1">{businessInfo.travelAgency}</p>
-              </div>
+            <div className="border border-border rounded-xl p-6 bg-card grid sm:grid-cols-2 gap-6 text-center sm:text-left items-center">
 
               <div>
                 <p className="text-xs uppercase tracking-wider text-muted-foreground font-medium">Cultural Music Partner</p>
